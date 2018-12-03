@@ -3,7 +3,7 @@ import CocktailsList from './CocktailsList'
 import CocktailDisplay from './CocktailDisplay'
 import Form from './Form'
 
-class CocktailsContainer extends Component {
+export default class CocktailsContainer extends Component {
 
   render(){
     return (
@@ -13,5 +13,3 @@ class CocktailsContainer extends Component {
     )
   }
 }
-
-export default CocktailsContainer
